@@ -1,0 +1,6 @@
+{
+  "name": "@svench-mono-template/component-button",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js"
+}
