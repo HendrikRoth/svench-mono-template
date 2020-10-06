@@ -1,0 +1,7 @@
+{
+  "name": "@svench-mono-template/{{LOWER_TYPE}}-{{LOWER_NAME}}",
+  "version": "0.1.0",
+  "description": "{{DESCRIPTION}}",
+  "main": "dist/index.js",
+  "author": "{{AUTHOR}}"
+}

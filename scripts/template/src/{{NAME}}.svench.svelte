@@ -1,8 +1,8 @@
 <script>
     import { View } from 'svench';
-    import Button from './Button.svelte';
+    import {{NAME}} from './{{NAME}}.svelte';
 </script>
 
 <View name="default" let:knobs knobs={{classes: "mtn-button"}}>
-    <Button {...knobs}>Text</Button>
+    <{{NAME}} {...knobs}>Text</{{NAME}}>
 </View>

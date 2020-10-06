@@ -4,6 +4,7 @@
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "cross-env": "^7.0.2",
+    "inquirer": "^7.3.3",
     "lerna": "^3.22.1",
     "nollup": "^0.13.11",
     "rollup": "^2.28.2",
@@ -15,8 +16,12 @@
     "svench": "^0.0.10-5"
   },
   "scripts": {
+    "create": "node ./scripts/create.js",
     "svench:rollup": "cross-env SVENCH=1 rollup -cw",
     "svench:nollup": "cross-env SVENCH=1 nollup",
     "svench": "npm run --silent svench:nollup"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
   }
 }
